@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #838281;
+    font-family: inter;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f3ede5;
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    padding: 3% 3% 2% 10%;
+}
+
+.useful-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3.2% 7%;
+    margin: 0 20px;
+}
+
+.sign-up-btns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 92px;
+}
+
+.btn {
+    font-family: inter;
+    border: none;
+    text-align: center;
+}
+
+.btn-block {
+    display: block;
+}
+
+.sign-in-btn {
+    background-color: #f3ede5;
+    font-size: 16px;
+}
+
+.sign-in-btn:hover {
+    color: #4e4e4e;
+    cursor: pointer;
+}
+
+.try-for-free-btn {
+    background-color: #133416;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 20px;
+    width: 130px;
+
+}
+
+.try-for-free-btn:hover {
+    background-color: #225c27;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #838281;
+}
+
+/* Title section styling */
+
+.first-head {
+    color: black;
+    font-size: 2.8em;
+}
+
+.second-head {
+    color: rgb(255, 174, 0);
+    font-size: 2.8rem;
+}
+
+.margin-set {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 2% 10%;
+    justify-content: flex-end;
+}
+
+.content {
+    padding-top: 2.5%;
+}
+
+.reviews {
+    display: inline-block;
+}
+
+
+.testimonial {
+    text-align: right;
+}
+
+.testi-img {
+    width: 55%;
+}
+
+.review-img {
+    width: 22px;
+    padding: 2px 2px 0px;
+}
+
+.shopify-sm {
+    width: 55px;
+    position: relative;
+    right: 15px;
+    top: 4px;
+}
+
+/* footer section styling */
+footer {
+    text-align: center;
+    padding: 2.5%;
+}
+
+.footer-review {
+    padding-bottom: 2%;
+}
+
+.trusted-img {
+    padding: 0 2%;
+}
+
+/* dropdow button styling */
+.menu-btn {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+}
+
+.show-on-phone {
+    display: none;
+}
+
+.close-img {
+    margin-left: 65%;
+}
+
+.navbtn:hover {
+    color: #4e4e4e;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    min-width: 360px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20%;
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+.dropLayout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4% 0;
+}
+
+.drop-img-pad {
+    padding-right: 2%;
+}
+
+/* Styling for phone */
+
+@media screen and (max-width: 900px) {
+
+    /* navbar styling for phone */
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding: 7% 5% 5%;
+    }
+
+    .useful-links {
+        margin: 0;
+    }
+
+    .disappear {
+        display: none;
+    }
+
+    .dropdown-content {
+        right: 0;
+        top: -15px;
+    }
+
+    .testimonial {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        padding: 3% 3% 2% 10%;
+    }
+
+    .show-on-phone {
+        display: block;
+        padding: 0 2%;
+
+    }
+
+    .trusted-img {
+        width: 175px;
+    }
+
+    .trusted-imgs {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: auto auto;
+        padding: 8%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer-section {
+        margin-top: 5%;
+    }
+}
